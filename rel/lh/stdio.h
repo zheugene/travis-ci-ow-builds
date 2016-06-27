@@ -181,7 +181,7 @@ using std::wscanf;
 
 #define _NFILES         16          /*  minimum guaranteed open files       */
 #define BUFSIZ          4096        /*  Default buffer size                 */
-#define FILENAME_MAX    256
+#define FILENAME_MAX    255
 
 struct __stream_link;
 struct __iobuf;
