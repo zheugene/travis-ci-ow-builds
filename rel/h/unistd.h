@@ -59,6 +59,7 @@ _WCRTLINK extern int    rmdir( const char *__path );
 _WCRTLINK extern unsigned int sleep( unsigned int __seconds );
 _WCRTLINK extern int    usleep( unsigned long __usec );
 
+_WCRTLINK extern void _WCNEAR *__brk( unsigned __new_brk_value );
 _WCRTLINK extern void _WCNEAR *sbrk( int __increment );
 
 /* Globals used and set by getopt() */

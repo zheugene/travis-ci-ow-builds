@@ -482,6 +482,7 @@ extern  char    **__argv;       /* vector of cmd line args */
 #endif
 
 _WCRTLINK extern int          brk( void *endds );
+_WCRTLINK extern void _WCNEAR *__brk( unsigned __new_brk_value );
 _WCRTLINK extern void _WCNEAR *sbrk( int __increment );
 
 typedef void (*onexit_t)( void );
