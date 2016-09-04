@@ -66,9 +66,9 @@
 #endif
 
 namespace std {
-  _WPRTLINK extern void     terminate( void );
+  _WPRTLINK _NORETURN extern void     terminate( void );
+  _WPRTLINK _NORETURN extern void     unexpected( void );
   _WPRTLINK extern PFV      set_terminate( PFV );
-  _WPRTLINK extern void     unexpected( void );
   _WPRTLINK extern PFV      set_unexpected( PFV );
 }
 using std::terminate;
