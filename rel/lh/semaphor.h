@@ -27,6 +27,36 @@ extern "C" {
 #endif
 
 
+#ifndef _TIMESPEC_DEFINED
+#define _TIMESPEC_DEFINED
+
+#ifdef __cplusplus
+ #ifndef _STDTIME_T_DEFINED
+ #define _STDTIME_T_DEFINED
+  namespace std {
+    typedef signed long time_t;
+  }
+ #endif
+ #ifndef _TIME_T_DEFINED
+ #define _TIME_T_DEFINED
+  #define _TIME_T_DEFINED_
+  using std::time_t;
+ #endif
+#else  /* __cplusplus not defined */
+ #ifndef _TIME_T_DEFINED
+ #define _TIME_T_DEFINED
+  #define _TIME_T_DEFINED_
+  typedef signed long time_t;
+ #endif
+#endif /* __cplusplus not defined */
+
+struct timespec {
+    time_t tv_sec;
+    long tv_nsec;
+};
+
+#endif
+
 typedef struct {
     int value;
 } sem_t;
@@ -39,6 +69,7 @@ _WCRTLINK extern int sem_getvalue( sem_t *__sem, int *__value );
 _WCRTLINK extern int sem_post( sem_t *__sem );
 _WCRTLINK extern int sem_trywait( sem_t *__sem );
 _WCRTLINK extern int sem_wait( sem_t *__sem );
+_WCRTLINK extern int sem_timedwait( sem_t *__sem, const struct timespec *__abstime );
 #endif
 
 

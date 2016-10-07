@@ -29,9 +29,13 @@ extern "C" {
 #include <time.h>
 #include <sys/types.h>
 
+#ifndef SCHED_PARAM_DEFINED
+#define SCHED_PARAM_DEFINED
 struct sched_param {
     int sched_priority;
 };
+#endif /* SCHED_PARAM_DEFINED */
+
 
 /* Scheduling policies per the Linux kernel */
 #define SCHED_NORMAL            0

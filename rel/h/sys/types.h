@@ -97,6 +97,14 @@ typedef long long           int64_t;
 typedef unsigned long long  uint64_t;
 #endif /* _EXACT_WIDTH_INTS */
 
+#ifndef SCHED_PARAM_DEFINED
+#define SCHED_PARAM_DEFINED
+struct sched_param {
+    int sched_priority;
+};
+#endif /* SCHED_PARAM_DEFINED */
+
+
 typedef unsigned int    ino_t;  /* i-node # type */
 typedef int             dev_t;  /* device code (drive #) */
 typedef long            off_t;  /* file offset value */
@@ -109,6 +117,8 @@ typedef long long       id_t;   /* pid_t, uid_t or gid_t */
 #define major(device)           ((int)(((device) >> 8) & 0xFF))
 #define minor(device)           ((int)((device) & 0xff))
 #define makedev(major,minor)    ((dev_t) (((major) << 8) | (minor)))
+
+/* POSIX threads support */
 
 #ifdef __cplusplus
 } /* extern "C" */

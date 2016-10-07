@@ -111,6 +111,14 @@ typedef long long           int64_t;
 typedef unsigned long long  uint64_t;
 #endif /* _EXACT_WIDTH_INTS */
 
+#ifndef SCHED_PARAM_DEFINED
+#define SCHED_PARAM_DEFINED
+struct sched_param {
+    int sched_priority;
+};
+#endif /* SCHED_PARAM_DEFINED */
+
+
 typedef unsigned char   u_char;
 typedef unsigned short  u_short;
 typedef unsigned int    u_int;
@@ -122,6 +130,74 @@ typedef int             key_t;
 typedef long            blksize_t;
 typedef long            blkcnt_t;
 typedef quad_t          loff_t;
+
+
+/* POSIX threads support */
+
+/* For the definition of semaphores */
+#ifndef _SEMAPHORE_H_INCLUDED
+ #include <semaphore.h>
+#endif
+
+typedef struct {
+    sem_t        access;
+    sem_t        mutex;
+    int          status;
+    pid_t        owner;
+    int          type;
+} pthread_mutex_t;
+
+typedef struct {
+    int type;
+} pthread_mutexattr_t;
+
+typedef int pthread_key_t;
+
+typedef pid_t pthread_t;
+
+typedef struct {
+    sem_t            wait_block;
+    pthread_mutex_t  waiting_mutex;
+    int              waiters;
+} pthread_cond_t;
+
+/* Dummy type - nothing supported */
+typedef void* pthread_condattr_t;
+
+typedef struct {
+    pthread_mutex_t  block_mutex;
+    int              read_waiters;
+} pthread_rwlock_t;
+
+/* Dummy type - nothing supported */
+typedef void* pthread_rwlockattr_t;
+
+typedef struct {
+    int *value;
+} pthread_spinlock_t;
+
+typedef struct {
+    size_t stack_size;
+    void *stack_addr;
+    int detached;
+    int sched_policy;
+    int sched_inherit;
+    struct sched_param *sched_params;
+} pthread_attr_t;
+
+typedef struct {
+    pthread_mutex_t *access;
+    pthread_cond_t *cond;
+    unsigned count;
+    unsigned limit;
+} pthread_barrier_t;
+
+typedef void* pthread_barrierattr_t;
+
+typedef struct {
+    pthread_mutex_t access;
+    int             executed;
+} pthread_once_t;
 
 
 #ifdef __cplusplus
