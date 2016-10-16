@@ -110,11 +110,8 @@ using std::getenv;
 using std::system;
 #endif /* __cplusplus not defined */
 
-#ifdef __NETWARE__
- _WCRTLINK extern void  _exit( int __status );
-#else
- _WCRTLINK _NORETURN extern void  _exit( int __status );
-#endif
+_WCRTLINK _NORETURN extern void  _exit( int __status );
+
 
 #if !(defined(SYSV) || defined(BSD) || defined(XENIX) || defined(_UNIX_H_INCLUDED))
 _WCRTLINK extern char   *getcmd( char *__buffer );

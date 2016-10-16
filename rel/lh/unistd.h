@@ -269,11 +269,8 @@ _WCRTLINK extern int    _llseek( unsigned int __fildes, unsigned long __hi, unsi
 
 _WCRTLINK extern int    chdir( const char *__path );
 /* the following are also in process.h, but they are expected to be here */
-#ifdef __NETWARE__
- _WCRTLINK extern void  _exit( int __status );
-#else
- _WCRTLINK _NORETURN extern void  _exit( int __status );
-#endif
+_WCRTLINK _NORETURN extern void  _exit( int __status );
+
 
 _WCRTLINK extern int    execl( const char *__path, const char *__arg0, ... );
 _WCRTLINK extern int    execle( const char *__path, const char *__arg0, ... );

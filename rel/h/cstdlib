@@ -172,11 +172,8 @@ namespace std {
 _WCRTLINK extern void    break_on( void );
 _WCRTLINK extern void    break_off( void );
 
-#ifdef __NETWARE__
- _WCRTLINK extern void  _exit( int __status );
-#else
- _WCRTLINK _NORETURN extern void  _exit( int __status );
-#endif
+_WCRTLINK _NORETURN extern void  _exit( int __status );
+
 _WMRTLINK extern char    *ecvt( double __val, int __ndig, int *__dec, int *__sign );
 _WMRTLINK extern char    *_ecvt( double __val, int __ndig, int *__dec, int *__sign );
 _WMRTLINK extern char    *fcvt( double __val, int __ndig, int *__dec, int *__sign );

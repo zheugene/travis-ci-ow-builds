@@ -151,11 +151,8 @@ using std::getenv;
 using std::system;
 #endif /* __cplusplus not defined */
 
-#ifdef __NETWARE__
- _WCRTLINK extern void  _exit( int __status );
-#else
- _WCRTLINK _NORETURN extern void  _exit( int __status );
-#endif
+_WCRTLINK _NORETURN extern void  _exit( int __status );
+
 
 _WCRTLINK extern char   *getcmd( char *__buffer );
 _WCRTLINK extern int    _bgetcmd( char *__buffer, int __len );

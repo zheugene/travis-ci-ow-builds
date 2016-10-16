@@ -212,11 +212,8 @@ _WCRTLINK _NORETURN extern void   exit( int __status );
 #define atof(p)  strtod(p,(char **)NULL)
 
 #if defined(_POSIX_SOURCE) || defined(_LINUX_SOURCE) || !defined(NO_EXT_KEYS) /* extensions enabled */
-#ifdef __NETWARE__
- _WCRTLINK extern void  _exit( int __status );
-#else
- _WCRTLINK _NORETURN extern void  _exit( int __status );
-#endif
+_WCRTLINK _NORETURN extern void  _exit( int __status );
+
 #endif /* extensions enabled */
 
 #if defined(_LINUX_SOURCE) || !defined(NO_EXT_KEYS) /* extensions enabled */
