@@ -1,18 +1,18 @@
 Build host: UNIX
-========= 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld ==========
+========= 04:16:32 /home/travis/build/open-watcom/open-watcom-v2/bld ==========
 **** Building the watcom bootstrap
-====== 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
-= 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom/binbuild ==
+====== 04:16:32 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
+= 04:16:32 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom/binbuild ==
 cc clibext.obj
 lib clibext.lib
 mkdir dllobjs
 cc dllobjs/clibext.obj
 lib clibexts.lib
-====== 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
-====== 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
+====== 04:16:33 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
+====== 04:16:33 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
 **** Building the wcpp bootstrap
-======= 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
-=== 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp/binbuild ===
+======= 04:16:33 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
+=== 04:16:33 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp/binbuild ===
 cc wcpp.obj
 cc preproc.obj
 cc ppexpr.obj
@@ -21,26 +21,26 @@ cc ppmem.obj
 cc ppenv.obj
 cc pathlist.obj
 link wcpp.exe
-======= 04:07:57 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
+======= 04:16:34 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/cpp/binbuild/wcpp.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/wcpp'...
-======= 04:07:57 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
+======= 04:16:34 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
 **** Building the femisc bootstrap
-===== 04:07:57 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
-= 04:07:57 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc/binbuild =
+===== 04:16:34 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
+= 04:16:34 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc/binbuild =
 cc optencod.obj
 link optencod.exe
 cc msgencod.obj
 link msgencod.exe
 cc findhash.obj
 link findhash.exe
-===== 04:07:58 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
+===== 04:16:36 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc/binbuild/optencod.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/optencod'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc/binbuild/msgencod.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/msgencod'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc/binbuild/findhash.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/findhash'...
-===== 04:07:58 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
+===== 04:16:36 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
 **** Building the orl bootstrap
-======= 04:07:58 /home/travis/build/open-watcom/open-watcom-v2/bld/orl ========
-=== 04:07:58 /home/travis/build/open-watcom/open-watcom-v2/bld/orl/binbuild ===
+======= 04:16:36 /home/travis/build/open-watcom/open-watcom-v2/bld/orl ========
+=== 04:16:36 /home/travis/build/open-watcom/open-watcom-v2/bld/orl/binbuild ===
 cc orlentry.obj
 cc orlflhnd.obj
 cc orlhash.obj
@@ -59,10 +59,10 @@ cc coffflhn.obj
 cc coffload.obj
 cc coffimpl.obj
 lib orl.lib
-======= 04:07:59 /home/travis/build/open-watcom/open-watcom-v2/bld/orl ========
+======= 04:16:39 /home/travis/build/open-watcom/open-watcom-v2/bld/orl ========
 **** Building the wlib bootstrap
-====== 04:07:59 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
-== 04:07:59 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib/binbuild ==
+====== 04:16:39 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
+== 04:16:39 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib/binbuild ==
 cpp wlibmsg.gh
 awk msg.gh
 cpp incltext.gh
@@ -110,12 +110,12 @@ cc maindrv.obj
 cc idedrv.obj
 cc idemsgfm.obj
 link bwlib.exe
-====== 04:08:03 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
+====== 04:16:46 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/nwlib/binbuild/bwlib.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/bwlib'...
-====== 04:08:03 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
+====== 04:16:46 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
 **** Building the yacc bootstrap
-======= 04:08:03 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
-== 04:08:03 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc/binbuild ===
+======= 04:16:46 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
+== 04:16:46 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc/binbuild ===
 cc bitsets.obj
 cc buildpro.obj
 cc default.obj
@@ -134,12 +134,12 @@ cc sentence.obj
 cc used.obj
 cc yacc.obj
 link yacc.exe
-======= 04:08:04 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
+======= 04:16:48 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/yacc/binbuild/yacc.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/yacc'...
-======= 04:08:04 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
+======= 04:16:48 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
 **** Building the buildutl bootstrap
-===== 04:08:04 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
-= 04:08:04 /home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild =
+===== 04:16:48 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
+= 04:16:48 /home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild =
 cc sweep.obj
 link sweep.exe
 cc wsplice.obj
@@ -150,16 +150,16 @@ cc genverrc.obj
 link genverrc.exe
 cc crlf.obj
 link crlf.exe
-===== 04:08:05 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
+===== 04:16:49 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild/wsplice.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/wsplice'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild/sweep.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/sweep'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild/comstrip.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/comstrip'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild/genverrc.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/genverrc'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild/crlf.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/crlf'...
-===== 04:08:05 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
+===== 04:16:49 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
 **** Building the wres bootstrap
-======= 04:08:05 /home/travis/build/open-watcom/open-watcom-v2/bld/wres =======
-== 04:08:05 /home/travis/build/open-watcom/open-watcom-v2/bld/wres/binbuild ===
+======= 04:16:49 /home/travis/build/open-watcom/open-watcom-v2/bld/wres =======
+== 04:16:49 /home/travis/build/open-watcom/open-watcom-v2/bld/wres/binbuild ===
 cc loadfind.obj
 cc loadstr.obj
 cc mrrdrh.obj
@@ -241,10 +241,10 @@ cc wrrfwrid.obj
 cc wrrwrid.obj
 cc wrwritdi.obj
 lib wres.lib
-======= 04:08:07 /home/travis/build/open-watcom/open-watcom-v2/bld/wres =======
+======= 04:16:54 /home/travis/build/open-watcom/open-watcom-v2/bld/wres =======
 **** Building the wrc bootstrap
-====== 04:08:07 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc =======
-== 04:08:07 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc/binbuild ==
+====== 04:16:54 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc =======
+== 04:16:54 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc/binbuild ==
 cat ../1250.uni >1250.uni
 cat ../1251.uni >1251.uni
 cat ../1252.uni >1252.uni
@@ -321,641 +321,10 @@ cc rcspawn.obj
 cc maindrv.obj
 cc idedrv.obj
 cc idemsgfm.obj
-link bwrc.exe
-====== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc =======
-Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc/binbuild/bwrc.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/bwrc'...
-Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc/binbuild/kanji.uni' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/kanji.uni'...
-====== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc =======
-**** Building the wstrip bootstrap
-====== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip ======
-= 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip/binbuild ==
-cpp wstrip.gh
-awk msg.gh
-cpp incltext.gh
-cc strip.obj
-cc output.obj
-link wstripx.exe
-====== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip ======
-Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/wstrip/binbuild/wstripx.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/bwstrip'...
-====== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip ======
-**** Building the dwarfdw bootstrap
-===== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/dwarf/dw =====
-= 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/dwarf/dw/binbuild ==
-bld_cl ./dwmakeab.exe
-./dwmakeab.exe dwabenum.gh
-./dwmakeab.exe dwabinfo.gh
-cc dwabbrev.obj
-cc dwarange.obj
-cc dwcarve.obj
-cc dwdie.obj
-cc dwdecl.obj
-cc dwgen.obj
-cc dwhandle.obj
-cc dwinfo.obj
-cc dwline.obj
-cc dwlngen.obj
-cc dwloc.obj
-cc dwmac.obj
-cc dwmem.obj
-cc dwname.obj
-cc dwrefer.obj
-cc dwsym.obj
-cc dwtype.obj
-cc dwutils.obj
-lib dwarfw.lib
-===== 04:08:13 /home/travis/build/open-watcom/open-watcom-v2/bld/dwarf/dw =====
-**** Building the wlink bootstrap
-======== 04:08:13 /home/travis/build/open-watcom/open-watcom-v2/bld/wl ========
-=== 04:08:13 /home/travis/build/open-watcom/open-watcom-v2/bld/wl/binbuild ====
-cpp wrcmsg.gh
-awk rcmsg.gh
-rc wlink.res
-cc autogrp.obj
-In file included from ../c/autogrp.c:34:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/autogrp.c:34:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc carve.obj
-cc wcomdef.obj
-In file included from ../c/wcomdef.c:50:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/wcomdef.c:50:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc cmd16m.obj
-cc cmdall.obj
-cc cmddos.obj
-cc cmdelf.obj
-cc cmdline.obj
-cc cmdnov.obj
-cc cmdos2.obj
-cc cmdphar.obj
-cc cmdzdos.obj
-cc cmdrdv.obj
-cc cmdraw.obj
-cc cmdtable.obj
-cc cmdutils.obj
-cc cmdqnx.obj
-cc dbgall.obj
-In file included from ../c/dbgall.c:52:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/dbgall.c:52:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc dbgcv.obj
-In file included from ../c/dbgcv.c:43:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/dbgcv.c:43:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc dbgdwarf.obj
-In file included from ../c/dbgdwarf.c:38:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/dbgdwarf.c:38:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc dbginfo.obj
-In file included from ../c/dbginfo.c:49:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/dbginfo.c:49:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc debug.obj
-cc distrib.obj
-In file included from ../c/distrib.c:42:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/distrib.c:42:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc global.obj
-cc hash.obj
-cc ideentry.obj
-cc idemsgpr.obj
-cc impexp.obj
-In file included from ../c/impexp.c:46:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/impexp.c:46:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc libr.obj
-cc libsupp.obj
-cc linkutil.obj
-In file included from ../c/linkutil.c:45:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/linkutil.c:45:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc load16m.obj
-In file included from ../c/load16m.c:49:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/load16m.c:49:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc loaddos.obj
-In file included from ../c/loaddos.c:46:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/loaddos.c:46:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc loadelf.obj
-cc loadelf2.obj
-cc loadfile.obj
-In file included from ../c/loadfile.c:39:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/loadfile.c:39:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc loadflat.obj
-In file included from ../c/loadflat.c:44:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/loadflat.c:44:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc loadnov.obj
-cc loados2.obj
-In file included from ../c/loados2.c:37:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/loados2.c:37:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc loadpe.obj
-In file included from ../c/loadpe.c:54:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/loadpe.c:54:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc loadphar.obj
-cc loadqnx.obj
-In file included from ../c/loadqnx.c:35:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/loadqnx.c:35:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc loadraw.obj
-In file included from ../c/loadraw.c:35:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/loadraw.c:35:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc loadzdos.obj
-cc loadrdv.obj
-In file included from ../c/loadrdv.c:46:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/loadrdv.c:46:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc lsymtab.obj
-In file included from ../c/lsymtab.c:48:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/lsymtab.c:48:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc mapio.obj
-In file included from ../c/mapio.c:48:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/mapio.c:48:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc mem.obj
-cc mixcache.obj
-cc msg.obj
-cc objio.obj
-cc obj2supp.obj
-In file included from ../c/obj2supp.c:61:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/obj2supp.c:61:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc objcalc.obj
-In file included from ../c/objcalc.c:50:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/objcalc.c:50:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc objfree.obj
-In file included from ../c/objfree.c:46:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/objfree.c:46:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc objnode.obj
-cc objomf.obj
-cc objorl.obj
-cc objpass1.obj
-In file included from ../c/objpass1.c:49:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/objpass1.c:49:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc objpass2.obj
-In file included from ../c/objpass2.c:46:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/objpass2.c:46:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc objstrip.obj
-cc omfhash.obj
-cc omfreloc.obj
-In file included from ../c/omfreloc.c:48:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/omfreloc.c:48:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc overlays.obj
-cc ovlsupp.obj
-In file included from ../c/ovlsupp.c:52:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/ovlsupp.c:52:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc permdata.obj
-In file included from ../c/permdata.c:48:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/permdata.c:48:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc procfile.obj
-In file included from ../c/procfile.c:59:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/procfile.c:59:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc reloc.obj
-cc ring.obj
-In file included from ../c/ring.c:34:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/ring.c:34:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc ring2.obj
-In file included from ../c/ring2.c:33:
-In file included from ../c/ring.c:34:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/ring2.c:33:
-In file included from ../c/ring.c:34:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc salloc.obj
-In file included from ../c/salloc.c:38:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/salloc.c:38:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc spillio.obj
-cc strtab.obj
-In file included from ../c/strtab.c:41:
-../h/ring.h:46:14: warning: redefinition of typedef 'ringwalk_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef void ringwalk_fn( void * );
-             ^
-../h/ring.h:46:14: note: previous definition is here
-typedef void ringwalk_fn( void * );
-             ^
-In file included from ../c/strtab.c:41:
-../h/ring.h:47:14: warning: redefinition of typedef 'ringcompare_fn' is a C11 feature [-Wtypedef-redefinition]
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-../h/ring.h:47:14: note: previous definition is here
-typedef bool ringcompare_fn( void *element, void *comparand );
-             ^
-2 warnings generated.
-cc symmem.obj
-cc symtrace.obj
-cc toc.obj
-cc wlink.obj
-cc wlnkmsg.obj
-cc demangle.obj
-cc pathlist.obj
-cc exerespe.obj
-cc sharedio.obj
-cc rcstr.obj
-cc virtpage.obj
-cc posixio.obj
-cc stidedrv.obj
-cc idemsgfm.obj
-cc maindrv.obj
-link bwlink.exe
-Error(F38): (echo_bindres) does not exist and cannot be made from existing files
+rc wresui.res
+sh: 1: bwrc: not found
+Error(E14): Cannot execute (bwrc): No such file or directory
+Error(E42): Last command making (wresui.res) returned a bad status
 Error(E02): Make execution terminated
-<wmake -h -f ../binmake bootstrap=1> => non-zero return: 1024
+<wmake -h -f ../binmake bootstrap=1> => non-zero return: 512
 Build failed
