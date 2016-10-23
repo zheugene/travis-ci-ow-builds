@@ -1,18 +1,18 @@
 Build host: UNIX
-========= 04:00:54 /home/travis/build/open-watcom/open-watcom-v2/bld ==========
+========= 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld ==========
 **** Building the watcom bootstrap
-====== 04:00:54 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
-= 04:00:54 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom/binbuild ==
+====== 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
+= 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom/binbuild ==
 cc clibext.obj
 lib clibext.lib
 mkdir dllobjs
 cc dllobjs/clibext.obj
 lib clibexts.lib
-====== 04:00:54 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
-====== 04:00:54 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
+====== 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
+====== 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/watcom ======
 **** Building the wcpp bootstrap
-======= 04:00:54 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
-=== 04:00:54 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp/binbuild ===
+======= 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
+=== 04:07:56 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp/binbuild ===
 cc wcpp.obj
 cc preproc.obj
 cc ppexpr.obj
@@ -21,26 +21,26 @@ cc ppmem.obj
 cc ppenv.obj
 cc pathlist.obj
 link wcpp.exe
-======= 04:00:55 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
+======= 04:07:57 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/cpp/binbuild/wcpp.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/wcpp'...
-======= 04:00:55 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
+======= 04:07:57 /home/travis/build/open-watcom/open-watcom-v2/bld/cpp ========
 **** Building the femisc bootstrap
-===== 04:00:55 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
-= 04:00:55 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc/binbuild =
+===== 04:07:57 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
+= 04:07:57 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc/binbuild =
 cc optencod.obj
 link optencod.exe
 cc msgencod.obj
 link msgencod.exe
 cc findhash.obj
 link findhash.exe
-===== 04:00:56 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
+===== 04:07:58 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc/binbuild/optencod.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/optencod'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc/binbuild/msgencod.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/msgencod'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc/binbuild/findhash.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/findhash'...
-===== 04:00:56 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
+===== 04:07:58 /home/travis/build/open-watcom/open-watcom-v2/bld/fe_misc ======
 **** Building the orl bootstrap
-======= 04:00:56 /home/travis/build/open-watcom/open-watcom-v2/bld/orl ========
-=== 04:00:56 /home/travis/build/open-watcom/open-watcom-v2/bld/orl/binbuild ===
+======= 04:07:58 /home/travis/build/open-watcom/open-watcom-v2/bld/orl ========
+=== 04:07:58 /home/travis/build/open-watcom/open-watcom-v2/bld/orl/binbuild ===
 cc orlentry.obj
 cc orlflhnd.obj
 cc orlhash.obj
@@ -59,10 +59,10 @@ cc coffflhn.obj
 cc coffload.obj
 cc coffimpl.obj
 lib orl.lib
-======= 04:00:57 /home/travis/build/open-watcom/open-watcom-v2/bld/orl ========
+======= 04:07:59 /home/travis/build/open-watcom/open-watcom-v2/bld/orl ========
 **** Building the wlib bootstrap
-====== 04:00:57 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
-== 04:00:57 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib/binbuild ==
+====== 04:07:59 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
+== 04:07:59 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib/binbuild ==
 cpp wlibmsg.gh
 awk msg.gh
 cpp incltext.gh
@@ -110,12 +110,12 @@ cc maindrv.obj
 cc idedrv.obj
 cc idemsgfm.obj
 link bwlib.exe
-====== 04:01:01 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
+====== 04:08:03 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/nwlib/binbuild/bwlib.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/bwlib'...
-====== 04:01:01 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
+====== 04:08:03 /home/travis/build/open-watcom/open-watcom-v2/bld/nwlib =======
 **** Building the yacc bootstrap
-======= 04:01:01 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
-== 04:01:01 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc/binbuild ===
+======= 04:08:03 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
+== 04:08:03 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc/binbuild ===
 cc bitsets.obj
 cc buildpro.obj
 cc default.obj
@@ -134,12 +134,12 @@ cc sentence.obj
 cc used.obj
 cc yacc.obj
 link yacc.exe
-======= 04:01:02 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
+======= 04:08:04 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/yacc/binbuild/yacc.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/yacc'...
-======= 04:01:02 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
+======= 04:08:04 /home/travis/build/open-watcom/open-watcom-v2/bld/yacc =======
 **** Building the buildutl bootstrap
-===== 04:01:02 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
-= 04:01:02 /home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild =
+===== 04:08:04 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
+= 04:08:04 /home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild =
 cc sweep.obj
 link sweep.exe
 cc wsplice.obj
@@ -150,16 +150,16 @@ cc genverrc.obj
 link genverrc.exe
 cc crlf.obj
 link crlf.exe
-===== 04:01:02 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
+===== 04:08:05 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild/wsplice.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/wsplice'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild/sweep.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/sweep'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild/comstrip.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/comstrip'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild/genverrc.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/genverrc'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/builder/binbuild/crlf.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/crlf'...
-===== 04:01:02 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
+===== 04:08:05 /home/travis/build/open-watcom/open-watcom-v2/bld/builder ======
 **** Building the wres bootstrap
-======= 04:01:02 /home/travis/build/open-watcom/open-watcom-v2/bld/wres =======
-== 04:01:02 /home/travis/build/open-watcom/open-watcom-v2/bld/wres/binbuild ===
+======= 04:08:05 /home/travis/build/open-watcom/open-watcom-v2/bld/wres =======
+== 04:08:05 /home/travis/build/open-watcom/open-watcom-v2/bld/wres/binbuild ===
 cc loadfind.obj
 cc loadstr.obj
 cc mrrdrh.obj
@@ -241,10 +241,10 @@ cc wrrfwrid.obj
 cc wrrwrid.obj
 cc wrwritdi.obj
 lib wres.lib
-======= 04:01:05 /home/travis/build/open-watcom/open-watcom-v2/bld/wres =======
+======= 04:08:07 /home/travis/build/open-watcom/open-watcom-v2/bld/wres =======
 **** Building the wrc bootstrap
-====== 04:01:05 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc =======
-== 04:01:05 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc/binbuild ==
+====== 04:08:07 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc =======
+== 04:08:07 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc/binbuild ==
 cat ../1250.uni >1250.uni
 cat ../1251.uni >1251.uni
 cat ../1252.uni >1252.uni
@@ -322,25 +322,25 @@ cc maindrv.obj
 cc idedrv.obj
 cc idemsgfm.obj
 link bwrc.exe
-====== 04:01:09 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc =======
+====== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc =======
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc/binbuild/bwrc.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/bwrc'...
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc/binbuild/kanji.uni' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/kanji.uni'...
-====== 04:01:09 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc =======
+====== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/rc/rc =======
 **** Building the wstrip bootstrap
-====== 04:01:09 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip ======
-= 04:01:09 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip/binbuild ==
+====== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip ======
+= 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip/binbuild ==
 cpp wstrip.gh
 awk msg.gh
 cpp incltext.gh
 cc strip.obj
 cc output.obj
 link wstripx.exe
-====== 04:01:09 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip ======
+====== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip ======
 Copying '/home/travis/build/open-watcom/open-watcom-v2/bld/wstrip/binbuild/wstripx.exe' to '/home/travis/build/open-watcom/open-watcom-v2/build/bin/bwstrip'...
-====== 04:01:09 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip ======
+====== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/wstrip ======
 **** Building the dwarfdw bootstrap
-===== 04:01:09 /home/travis/build/open-watcom/open-watcom-v2/bld/dwarf/dw =====
-= 04:01:09 /home/travis/build/open-watcom/open-watcom-v2/bld/dwarf/dw/binbuild ==
+===== 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/dwarf/dw =====
+= 04:08:12 /home/travis/build/open-watcom/open-watcom-v2/bld/dwarf/dw/binbuild ==
 bld_cl ./dwmakeab.exe
 ./dwmakeab.exe dwabenum.gh
 ./dwmakeab.exe dwabinfo.gh
@@ -363,10 +363,10 @@ cc dwsym.obj
 cc dwtype.obj
 cc dwutils.obj
 lib dwarfw.lib
-===== 04:01:10 /home/travis/build/open-watcom/open-watcom-v2/bld/dwarf/dw =====
+===== 04:08:13 /home/travis/build/open-watcom/open-watcom-v2/bld/dwarf/dw =====
 **** Building the wlink bootstrap
-======== 04:01:10 /home/travis/build/open-watcom/open-watcom-v2/bld/wl ========
-=== 04:01:10 /home/travis/build/open-watcom/open-watcom-v2/bld/wl/binbuild ====
+======== 04:08:13 /home/travis/build/open-watcom/open-watcom-v2/bld/wl ========
+=== 04:08:13 /home/travis/build/open-watcom/open-watcom-v2/bld/wl/binbuild ====
 cpp wrcmsg.gh
 awk rcmsg.gh
 rc wlink.res
